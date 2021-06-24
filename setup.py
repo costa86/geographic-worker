@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='geographic-worker',
-    version='0.0.4',
+    version='0.0.5',
     description='Functions for working with geographic data',
     long_description=long_description,
     long_description_content_type="text/markdown",
