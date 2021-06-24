@@ -32,9 +32,10 @@ setup(
     keywords=[
         'GIS',
         'latitude',
-        'longitute',
-        'geography',
-        'coordinates'
+        'longitude',
+        'coordinates',
+        'geolocation',
+        'maps'
     ],
     python_requires='>=3',
     extra_require={
