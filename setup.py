@@ -2,7 +2,6 @@ from setuptools import setup
 from os.path import splitext
 from os.path import basename
 from glob import glob
-from setuptools import find_packages
 
 
 with open("README.md", "r") as fh:
@@ -11,12 +10,11 @@ with open("README.md", "r") as fh:
 
 setup(
     name='geographic-worker',
-    version='0.0.7',
+    version='0.0.8',
     description='Functions for working with geographic data',
     long_description=long_description,
     long_description_content_type="text/markdown",
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
-    #packages=find_packages('src'),
     package_dir={'': 'src'},
     url="https://github.com/costa86/geographic-worker",
     author="Lorenzo Costa",
