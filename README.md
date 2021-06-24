@@ -17,11 +17,19 @@
 ## Getting started
 
 ```python
-from geoworker import check_latitude, check_longitude
+from geoworker import check_latitude, check_longitude, get_distance_coordinates_in_km
 
-latitude = 10 #Between 90 and -90
-longitude = 10 #Between 180 and -180
+#Latitude ranges from 90 to -90
+#Longitude ranges from 180 to -180
 
-check_latitude(latitude)
-check_longitude(longitude)
+lisbon = (38.865693, -9.138679)
+madrid = (40.459833, -3.719194)
+
+latitude = lisbon[0] 
+longitude = lisbon[1] 
+
+check_latitude(lisbon[0])
+check_longitude(lisbon[1])
+get_distance_coordinates_in_km(lisbon[0],lisbon[1],madrid[0],madrid[1])
+
 ```
