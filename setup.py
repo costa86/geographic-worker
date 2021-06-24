@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 name = 'geoworker'
 setup(
     name=name,
-    version='0.0.2',
+    version='0.0.3',
     description='Functions for working with geographic data',
     long_description=long_description,
     long_description_content_type="text/markdown",
