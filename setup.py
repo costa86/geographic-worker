@@ -16,7 +16,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
-    packages=find_packages('src'),
+    #packages=find_packages('src'),
     package_dir={'': 'src'},
     url="https://github.com/costa86/geographic-worker",
     author="Lorenzo Costa",
