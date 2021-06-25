@@ -2,13 +2,13 @@ from os import name
 from setuptools import setup
 
 
-with open("README.md", "r") as fh:
+with open("README_PYPI.md", "r") as fh:
     long_description = fh.read()
 
 name = 'geoworker'
 setup(
     name=name,
-    version='0.0.4',
+    version='0.0.5',
     description='Functions for working with geographic data',
     long_description=long_description,
     long_description_content_type="text/markdown",
