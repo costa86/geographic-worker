@@ -2,16 +2,12 @@ from os import name
 from setuptools import setup
 
 
-with open("README_PYPI.md", "r") as fh:
-    long_description = fh.read()
-
 name = 'geoworker'
 setup(
     name=name,
     version='0.0.5',
-    description='Functions for working with geographic data',
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    description='Helper functionalities for working with geographic data (GIS).',
+    long_description="Please, refer to Project links to see the documentation guide for this project.",
     py_modules=[name],
     package_dir={'': 'src'},
     url="https://github.com/costa86/geographic-worker",
