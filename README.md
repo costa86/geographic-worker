@@ -14,6 +14,12 @@
 - [costa86](https://www.github.com/costa86)
 
   
+## Installation
+
+https://pypi.org/project/geoworker/
+
+```pip install geoworker```
+   
 ## Getting started
 
 ```python
