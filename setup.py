@@ -5,7 +5,7 @@ from setuptools import setup
 name = 'geoworker'
 setup(
     name=name,
-    version='0.0.5',
+    version='0.0.6',
     description='Helper functionalities for working with geographic data (GIS).',
     long_description="Please, refer to Project links to see the documentation guide for this project.",
     py_modules=[name],
